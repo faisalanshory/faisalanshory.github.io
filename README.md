@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
 ## Overview
-Access the page on: http://faisalanshoryy.github.io/
+Access the page on: http://faisalanshory.github.io/
 
 Created with ❤️!
