@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <style>
+    .bulb { fill: #4dabf7; }
+    .base { fill: #ff6584; }
+    .spark { fill: #ffd700; }
+    .text { font-family: Arial, sans-serif; font-weight: bold; fill: #4dabf7; }
+  </style>
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#4dabf7" stroke-width="2" />
+  <path class="bulb" d="M100,50 c-20,0 -30,15 -30,35 c0,15 10,20 10,30 h40 c0,-10 10,-15 10,-30 c0,-20 -10,-35 -30,-35 z" />
+  <path class="base" d="M90,115 h20 v20 c0,5 -20,5 -20,0 z" />
+  <path class="spark" d="M100,30 v-10 M130,45 l7,-7 M150,75 h10 M130,105 l7,7 M70,105 l-7,7 M50,75 h-10 M70,45 l-7,-7" stroke="#ffd700" stroke-width="3" />
+  <text class="text" x="100" y="170" text-anchor="middle" font-size="12">INNOVATION AWARD</text>
+</svg>

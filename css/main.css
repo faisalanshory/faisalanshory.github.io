@@ -1,0 +1,24 @@
+/* Main CSS File - Imports all modular CSS files */
+
+/* Import Variables */
+@import 'modules/variables.css';
+
+/* Import Base Styles */
+@import 'modules/base.css';
+
+/* Import Layout Styles */
+@import 'modules/layout.css';
+
+/* Import Component Styles */
+@import 'modules/header.css';
+@import 'modules/cursor.css';
+@import 'modules/home.css';
+@import 'modules/about.css';
+@import 'modules/skills.css';
+@import 'modules/work.css';
+@import 'modules/contact.css';
+@import 'modules/footer.css';
+
+/* Import Utility Styles */
+@import 'modules/animations.css';
+@import 'modules/responsive.css';

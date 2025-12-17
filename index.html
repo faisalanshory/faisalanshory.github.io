@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Portfolio</div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="theme-toggle">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section visible">
+        <div class="container">
+            <div class="home-content">
+                <div class="emoji-container">
+                    <span class="emoji">👋</span>
+                </div>
+                <h1>Hello, I'm <span class="highlight typing-name">Faisal</span></h1>
+                <p class="intro-text">T-shaped professional with a strong foundation in geospatial technology, data analysis, and web development. Experienced in managing projects and building efficient GIS-based systems.</p>
+                <div class="cta-buttons">
+                    <a href="#work" class="btn primary">View My Work</a>
+                    <a href="mailto:faisalanshory.m@gmail.com" class="btn secondary">Send Me an Email</a>
+                </div>
+                <div class="location-info">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>  Jakarta, Indonesia </span>
+                </div>
+                <br><br>
+                <div class="social-icons">
+                        <a href="https://github.com/faisalanshory" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/faisalanshory/" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/faisalanshoryy/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills/Languages Section -->
+    <section id="about" class="section visible">
+        <div class="container">
+            <h2 class="section-title">Skills/Languages</h2>
+            <p class="skills-subtitle">A diverse skillset with advanced knowledge spanning across both map design and development.</p>
+            
+            <div class="skills-grid">
+                <div class="skill-item">ArcGIS Pro</div>
+                <div class="skill-item">ArcPy</div>
+                <div class="skill-item">QGIS</div>
+                <div class="skill-item">Mapbox</div>
+                <div class="skill-item">Google Earth Engine</div>
+                <div class="skill-item">Leaflet</div>
+                <div class="skill-item">Geopaandas</div>
+                <div class="skill-item">Graphhopper</div>
+                <div class="skill-item">ReactJS</div>
+                <div class="skill-item">Google Data Studio</div>
+                <div class="skill-item">Tableau</div>
+                <div class="skill-item">Tensorflow</div>
+                <div class="skill-item">Postman</div>
+                <div class="skill-item">Photoshop</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="section visible">
+        <div class="container">
+            <h2 class="section-title">My Work</h2>
+            
+            <div class="work-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="article">Articles</button>
+                <button class="filter-btn" data-filter="website">Websites</button>
+                <button class="filter-btn" data-filter="analysis">Analysis</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="map">Map</button>
+                <button class="filter-btn" data-filter="others">Others</button>
+            </div>
+            
+            <div class="work-grid" id="work-grid">
+                <!-- Article Items -->
+                <div class="work-item article">
+                    <div class="work-img">
+                        <img src="assets/images/portfolio/article1.svg" alt="Article 1">
+                    </div>
+                    <div class="work-info">
+                        <h3>Modern Web Development Trends</h3>
+                        <p>An in-depth look at the latest trends in web development and what to expect in the coming years.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+                
+                <div class="work-item article">
+                    <div class="work-img">
+                        <img src="assets/images/portfolio/article2.svg" alt="Article 2">
+                    </div>
+                    <div class="work-info">
+                        <h3>The Future of AI in Design</h3>
+                        <p>Exploring how artificial intelligence is transforming the design industry and creating new opportunities.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+                
+                <!-- Website Items -->
+                <div class="work-item website">
+                    <div class="work-img">
+                        <img src="assets/images/portfolio/website1.svg" alt="Website 1">
+                    </div>
+                    <div class="work-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A fully responsive e-commerce website with modern UI/UX design and seamless checkout process.</p>
+                        <a href="#" class="read-more">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="work-item website">
+                    <div class="work-img">
+                        <img src="assets/images/portfolio/website2.svg" alt="Website 2">
+                    </div>
+                    <div class="work-info">
+                        <h3>Travel Blog</h3>
+                        <p>A dynamic travel blog featuring interactive maps, photo galleries, and personalized user experiences.</p>
+                        <a href="#" class="read-more">View Project</a>
+                    </div>
+                </div>
+                
+                <!-- Analysis Items -->
+                <div class="work-item analysis">
+                    <div class="work-img">
+                        <img src="assets/images/portfolio/analysis1.svg" alt="Analysis 1">
+                    </div>
+                    <div class="work-info">
+                        <h3>Market Research Dashboard</h3>
+                        <p>An interactive dashboard visualizing market trends and consumer behavior for strategic decision-making.</p>
+                        <a href="#" class="read-more">View Analysis</a>
+                    </div>
+                </div>
+                
+                <div class="work-item analysis">
+                    <div class="work-img">
+                        <img src="assets/images/portfolio/analysis2.svg" alt="Analysis 2">
+                    </div>
+                    <div class="work-info">
+                        <h3>User Experience Study</h3>
+                        <p>A comprehensive analysis of user interactions and experience improvements for a mobile application.</p>
+                        <a href="#" class="read-more">View Analysis</a>
+                    </div>
+                </div>
+                
+                <!-- Design Items -->
+                <div class="work-item design">
+                    <div class="work-img">
+                        <img src="assets/images/portfolio/design1.svg" alt="Design 1">
+                    </div>
+                    <div class="work-info">
+                        <h3>Brand Identity System</h3>
+                        <p>A complete brand identity design including logo, color palette, typography, and application examples.</p>
+                        <a href="#" class="read-more">View Design</a>
+                    </div>
+                </div>
+                
+                <div class="work-item design">
+                    <div class="work-img">
+                        <img src="assets/images/portfolio/design2.svg" alt="Design 2">
+                    </div>
+                    <div class="work-info">
+                        <h3>Mobile App UI Design</h3>
+                        <p>A sleek, intuitive user interface design for a fitness tracking mobile application with dark mode.</p>
+                        <a href="#" class="read-more">View Design</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pagination" id="work-pagination">
+                <!-- Pagination buttons will be added here -->
+            </div>
+        </div>
+        
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section visible">
+        <div class="container" style="padding-bottom: 5px;">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-center">
+                    <h3>Let's Create Something Amazing Together</h3>
+                    <p class="contact-text">Interested in working together or have a project in mind? I'm always open to discussing new opportunities and ideas.</p>
+
+
+                    <div class="social-icons contact-social">
+                        <a href="https://github.com/faisalanshory" class="social-icon" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/faisalanshory/" class="social-icon" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/faisalanshoryy/" class="social-icon" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>made with ❤️ by faisal | local time: <span id="jakarta-time"></span></p>
+        </div>
+    </footer>
+
+
+    
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

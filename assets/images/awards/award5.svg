@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <style>
+    .people { fill: #4dabf7; }
+    .heart { fill: #ff6584; }
+    .circle { fill: none; stroke: #4dabf7; stroke-width: 2; }
+    .text { font-family: Arial, sans-serif; font-weight: bold; fill: #4dabf7; }
+  </style>
+  <circle class="circle" cx="100" cy="100" r="90" />
+  <circle class="circle" cx="70" cy="90" r="15" />
+  <circle class="circle" cx="130" cy="90" r="15" />
+  <path class="people" d="M70,105 v20 M130,105 v20 M70,125 h60 M100,105 v40" />
+  <path class="people" d="M55,90 a15,15 0 0 1 30,0 M115,90 a15,15 0 0 1 30,0" />
+  <path class="heart" d="M100,70 c0,-20 -25,-20 -25,0 c0,20 25,20 25,40 c0,-20 25,-20 25,-40 c0,-20 -25,-20 -25,0" />
+  <text class="text" x="100" y="170" text-anchor="middle" font-size="12">COMMUNITY CONTRIBUTION</text>
+</svg>

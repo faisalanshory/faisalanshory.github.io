@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <!-- Background Circle -->
+  <circle cx="200" cy="200" r="190" fill="#2d2d2d" />
+  
+  <!-- Decorative Elements -->
+  <circle cx="200" cy="200" r="180" fill="none" stroke="#4dabf7" stroke-width="2" stroke-dasharray="10 5" />
+  
+  <!-- Head -->
+  <circle cx="200" cy="170" r="90" fill="#424242" />
+  
+  <!-- Face -->
+  <circle cx="200" cy="170" r="80" fill="#616161" />
+  
+  <!-- Eyes -->
+  <circle cx="170" cy="150" r="12" fill="#212121" />
+  <circle cx="230" cy="150" r="12" fill="#212121" />
+  
+  <!-- Eye Highlights -->
+  <circle cx="174" cy="146" r="4" fill="white" />
+  <circle cx="234" cy="146" r="4" fill="white" />
+  
+  <!-- Smile -->
+  <path d="M160,190 Q200,230 240,190" fill="none" stroke="#212121" stroke-width="5" stroke-linecap="round" />
+  
+  <!-- Body/Shoulders -->
+  <path d="M110,280 Q200,240 290,280" fill="#424242" />
+  
+  <!-- Shirt/Collar -->
+  <path d="M150,280 L200,320 L250,280" fill="#4dabf7" />
+  
+  <!-- Decorative Tech Elements -->
+  <circle cx="130" cy="320" r="15" fill="#ff6584" />
+  <circle cx="270" cy="320" r="15" fill="#ff6584" />
+  
+  <!-- Code Brackets -->
+  <path d="M150,350 L130,330 L150,310" fill="none" stroke="#4dabf7" stroke-width="4" stroke-linecap="round" />
+  <path d="M250,350 L270,330 L250,310" fill="none" stroke="#4dabf7" stroke-width="4" stroke-linecap="round" />
+</svg>

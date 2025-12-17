@@ -1,0 +1,107 @@
+/* Layout CSS File */
+
+/* Section Styles */
+.section {
+    min-height: 100vh;
+    padding: 100px 0 80px;
+    margin-bottom: 40px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.section.visible {
+    display: block;
+}
+
+.section.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.section.in-view[data-scroll-direction="down"] {
+    animation: fadeInUp 0.8s ease forwards;
+}
+
+.section.in-view[data-scroll-direction="up"] {
+    animation: fadeInDown 0.8s ease forwards;
+}
+
+.section .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.section-title::after,
+.section-subtitle::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+}
+
+.section-subtitle {
+    font-size: 2rem;
+    margin: 60px 0 40px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+/* Animation for scroll-triggered elements */
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.animate-on-scroll.animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Staggered animations for different elements */
+.home-content.animate-on-scroll {
+    transition-delay: 0.1s;
+}
+
+.section-title.animate-on-scroll {
+    transition-delay: 0.2s;
+}
+
+.about-content.animate-on-scroll {
+    transition-delay: 0.3s;
+}
+
+.tech-stack.animate-on-scroll {
+    transition-delay: 0.4s;
+}
+
+.work-filter.animate-on-scroll {
+    transition-delay: 0.2s;
+}
+
+.work-item.animate-on-scroll {
+    transition-delay: calc(0.1s * var(--item-index, 1));
+}
+
+.awards-section.animate-on-scroll {
+    transition-delay: 0.3s;
+}
+
+.contact-content.animate-on-scroll {
+    transition-delay: 0.2s;
+}

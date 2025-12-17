@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <style>
+    .code { fill: none; stroke: #4dabf7; stroke-width: 2; }
+    .bracket { fill: #ff6584; }
+    .check { fill: #4dabf7; }
+    .text { font-family: Arial, sans-serif; font-weight: bold; fill: #4dabf7; }
+  </style>
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#4dabf7" stroke-width="2" />
+  <path class="code" d="M60,70 l-15,30 l15,30 M140,70 l15,30 l-15,30 M110,60 l-20,80" />
+  <path class="bracket" d="M60,70 l-15,30 l15,30 M140,70 l15,30 l-15,30" />
+  <circle class="check" cx="100" cy="100" r="25" />
+  <path d="M85,100 l10,10 l20,-20" fill="none" stroke="white" stroke-width="4" />
+  <text class="text" x="100" y="170" text-anchor="middle" font-size="12">EXCELLENCE IN CODING</text>
+</svg>

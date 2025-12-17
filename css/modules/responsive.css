@@ -1,0 +1,71 @@
+/* Responsive CSS File */
+
+@media (max-width: 992px) {
+    .about-content,
+    .contact-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .about-image {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    .work-grid {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px 20px;
+    }
+    
+    nav ul {
+        gap: 15px;
+    }
+    
+    .home-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .typing-container {
+        font-size: 1.5rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo {
+        font-size: 1.5rem;
+    }
+    
+    nav ul li a {
+        font-size: 0.9rem;
+    }
+    
+    .home-content h1 {
+        font-size: 2rem;
+    }
+    
+    .typing-container {
+        font-size: 1.2rem;
+    }
+    
+    .work-grid {
+        grid-template-columns: 1fr;
+    }
+}

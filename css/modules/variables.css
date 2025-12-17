@@ -1,0 +1,42 @@
+/* Variables CSS File */
+
+:root {
+    /* Light Theme Colors */
+    --light-primary-color: #4dabf7;
+    --light-secondary-color: #ff6584;
+    --light-bg: #f8f9fa;
+    --light-surface: #ffffff;
+    --light-surface-2: #e9ecef;
+    --light-text-primary: #212529;
+    --light-text-secondary: #6c757d;
+    
+    /* Dark Theme Colors */
+    --dark-primary-color: #4dabf7;
+    --dark-secondary-color: #ff6584;
+    --dark-bg: #121212;
+    --dark-surface: #1e1e1e;
+    --dark-surface-2: #2d2d2d;
+    --dark-text-primary: #ffffff;
+    --dark-text-secondary: #b3b3b3;
+    
+    /* Default Theme (Dark) */
+    --primary-color: var(--dark-primary-color);
+    --secondary-color: var(--dark-secondary-color);
+    --bg-color: var(--dark-bg);
+    --surface-color: var(--dark-surface);
+    --surface-color-2: var(--dark-surface-2);
+    --text-primary: var(--dark-text-primary);
+    --text-secondary: var(--dark-text-secondary);
+    --transition-speed: 0.3s;
+}
+
+/* Light Mode Theme Variables */
+body.light-mode {
+    --primary-color: var(--light-primary-color);
+    --secondary-color: var(--light-secondary-color);
+    --bg-color: var(--light-bg);
+    --surface-color: var(--light-surface);
+    --surface-color-2: var(--light-surface-2);
+    --text-primary: var(--light-text-primary);
+    --text-secondary: var(--light-text-secondary);
+}

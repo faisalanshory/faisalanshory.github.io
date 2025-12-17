@@ -1,0 +1,324 @@
+{
+  "items": [
+    {
+      "id": 22,
+      "title": "Ngabogor",
+      "description": "Poster design submission for regional competition.",
+      "image": "https://isal.vercel.app/images/portfolio/p1.jpg",
+      "link": "https://isal.vercel.app/",
+      "category": "design"
+    },
+    {
+      "id": 23,
+      "title": "Bogor Traffic",
+      "description": "Poster design submission for regional competition.",
+      "image": "https://isal.vercel.app/images/portfolio/p2.jpg",
+      "link": "#",
+      "category": "design"
+    },
+    {
+      "id": 24,
+      "title": "Earth Day",
+      "description": "Poster design for Earth Day 2019 event by FITB 2019.",
+      "image": "https://isal.vercel.app/images/portfolio/p3.jpg",
+      "link": "#",
+      "category": "design"
+    },
+    {
+      "id": 25,
+      "title": "Rising Sea Level",
+      "description": "Poster design submission for a class task.",
+      "image": "https://isal.vercel.app/images/portfolio/p4.jpg",
+      "link": "#",
+      "category": "design"
+    },
+    {
+      "id": 26,
+      "title": "Batik",
+      "description": "Poster design submission for a competition.",
+      "image": "https://isal.vercel.app/images/portfolio/p5.jpg",
+      "link": "#",
+      "category": "design"
+    },
+    {
+      "id": 27,
+      "title": "Food Diet",
+      "description": "Poster design submission for a competition.",
+      "image": "https://isal.vercel.app/images/portfolio/p6.jpg",
+      "link": "#",
+      "category": "design"
+    },
+    {
+      "id": 28,
+      "title": "Pelangi 200 Village",
+      "description": "Poster design submission to promote the result of Pelangi 200 Village mapping project.",
+      "image": "https://isal.vercel.app/images/portfolio/p7.jpg",
+      "link": "#",
+      "category": "design"
+    },
+    {
+      "id": 29,
+      "title": "Bandung Green Space Urgency",
+      "description": "Poster design submission for a class task. Well too bad, I got C for this class.",
+      "image": "https://isal.vercel.app/images/portfolio/p8.jpg",
+      "link": "#",
+      "category": "design"
+    },
+    {
+      "id": 1,
+      "title": "Modern Web Development Trends",
+      "description": "An in-depth look at the latest trends in web development and what to expect in the coming years.",
+      "image": "assets/images/portfolio/article1.svg",
+      "link": "#",
+      "category": "article"
+    },
+    {
+      "id": 2,
+      "title": "The Future of AI in Design",
+      "description": "Exploring how artificial intelligence is transforming the design industry and creating new opportunities.",
+      "image": "assets/images/portfolio/article2.svg",
+      "link": "#",
+      "category": "article"
+    },
+    {
+      "id": 3,
+      "title": "E-commerce Platform",
+      "description": "A fully responsive e-commerce platform with user authentication, product filtering, and payment integration.",
+      "image": "assets/images/portfolio/website1.svg",
+      "link": "#",
+      "category": "website"
+    },
+    {
+      "id": 4,
+      "title": "Personal Blog Theme",
+      "description": "A clean, minimalist blog theme with dark mode support, optimized for readability and content focus.",
+      "image": "assets/images/portfolio/website2.svg",
+      "link": "#",
+      "category": "website"
+    },
+    {
+      "id": 5,
+      "title": "Market Research Dashboard",
+      "description": "Interactive dashboard visualizing market trends and consumer behavior data for strategic decision making.",
+      "image": "assets/images/portfolio/analysis1.svg",
+      "link": "#",
+      "category": "analysis"
+    },
+    {
+      "id": 6,
+      "title": "User Behavior Analysis",
+      "description": "Comprehensive analysis of user interaction patterns to improve website conversion rates and user experience.",
+      "image": "assets/images/portfolio/analysis2.svg",
+      "link": "#",
+      "category": "analysis"
+    },
+    {
+      "id": 7,
+      "title": "Mobile App UI Kit",
+      "description": "A sleek, intuitive user interface design for a fitness tracking mobile application with dark mode.",
+      "image": "assets/images/portfolio/design1.svg",
+      "link": "#",
+      "category": "design"
+    },
+    {
+      "id": 8,
+      "title": "Brand Identity Design",
+      "description": "Complete brand identity package including logo, color palette, typography, and usage guidelines.",
+      "image": "assets/images/portfolio/design2.svg",
+      "link": "#",
+      "category": "design"
+    },
+    {
+      "id": 9,
+      "title": "Interactive City Map",
+      "description": "Interactive map highlighting points of interest, transportation routes, and historical landmarks.",
+      "image": "assets/images/portfolio/map1.svg",
+      "link": "#",
+      "category": "map"
+    },
+    {
+      "id": 10,
+      "title": "Geographic Data Visualization",
+      "description": "Custom map visualizations showing demographic data and regional statistics for research purposes.",
+      "image": "assets/images/portfolio/map2.svg",
+      "link": "#",
+      "category": "map"
+    },
+    {
+      "id": 11,
+      "title": "Photography Portfolio",
+      "description": "Collection of landscape and urban photography showcasing composition and lighting techniques.",
+      "image": "assets/images/portfolio/others1.svg",
+      "link": "#",
+      "category": "others"
+    },
+    {
+      "id": 12,
+      "title": "3D Modeling Project",
+      "description": "3D character and environment models created for an indie game project using Blender.",
+      "image": "assets/images/portfolio/others2.svg",
+      "link": "#",
+      "category": "others"
+    },
+    {
+      "id": 22,
+      "title": "Gembara Kreka Bhumi X",
+      "description": "Logo",
+      "image": "https://isal.vercel.app/images/portfolio/l1.jpg",
+      "link": "",
+      "category": "design"
+    },
+    {
+      "id": 23,
+      "title": "CupaCups",
+      "description": "Logot",
+      "image": "https://isal.vercel.app/images/portfolio/l2.jpg",
+      "link": "",
+      "category": "design"
+    },
+    {
+      "id": 24,
+      "title": "60 years Indonesia-Japan",
+      "description": "Logo",
+      "image": "https://isal.vercel.app/images/portfolio/l3.jpg",
+      "link": "",
+      "category": "design"
+    },
+    {
+      "id": 25,
+      "title": "Euro",
+      "description": "Logo",
+      "image": "https://isal.vercel.app/images/portfolio/l4.jpg",
+      "link": "",
+      "category": "design"
+    },
+    {
+      "id": 26,
+      "title": "Not Bad Indeed",
+      "description": "Logo",
+      "image": "https://isal.vercel.app/images/portfolio/l5.jpg",
+      "link": "",
+      "category": "design"
+    },
+    {
+      "id": 27,
+      "title": "Guest Lecture",
+      "description": "Logo",
+      "image": "https://isal.vercel.app/images/portfolio/l6.jpg",
+      "link": "",
+      "category": "design"
+    },
+    {
+      "id": 28,
+      "title": "NGSL",
+      "description": "Logo",
+      "image": "https://isal.vercel.app/images/portfolio/l7.jpg",
+      "link": "",
+      "category": "design"
+    },
+    {
+      "id": 29,
+      "title": "Arafah",
+      "description": "Logo",
+      "image": "https://isal.vercel.app/images/portfolio/l8.jpg",
+      "link": "",
+      "category": "design"
+    },
+    {
+      "id": 1,
+      "title": "Modern Web Development Trends",
+      "description": "An in-depth look at the latest trends in web development and what to expect in the coming years.",
+      "image": "assets/images/portfolio/article1.svg",
+      "link": "#",
+      "category": "article"
+    },
+    {
+      "id": 2,
+      "title": "The Future of AI in Design",
+      "description": "Exploring how artificial intelligence is transforming the design industry and creating new opportunities.",
+      "image": "assets/images/portfolio/article2.svg",
+      "link": "#",
+      "category": "article"
+    },
+    {
+      "id": 3,
+      "title": "E-commerce Platform",
+      "description": "A fully responsive e-commerce platform with user authentication, product filtering, and payment integration.",
+      "image": "assets/images/portfolio/website1.svg",
+      "link": "#",
+      "category": "website"
+    },
+    {
+      "id": 4,
+      "title": "Personal Blog Theme",
+      "description": "A clean, minimalist blog theme with dark mode support, optimized for readability and content focus.",
+      "image": "assets/images/portfolio/website2.svg",
+      "link": "#",
+      "category": "website"
+    },
+    {
+      "id": 5,
+      "title": "Market Research Dashboard",
+      "description": "Interactive dashboard visualizing market trends and consumer behavior data for strategic decision making.",
+      "image": "assets/images/portfolio/analysis1.svg",
+      "link": "#",
+      "category": "analysis"
+    },
+    {
+      "id": 6,
+      "title": "User Behavior Analysis",
+      "description": "Comprehensive analysis of user interaction patterns to improve website conversion rates and user experience.",
+      "image": "assets/images/portfolio/analysis2.svg",
+      "link": "#",
+      "category": "analysis"
+    },
+    {
+      "id": 7,
+      "title": "Mobile App UI Kit",
+      "description": "A sleek, intuitive user interface design for a fitness tracking mobile application with dark mode.",
+      "image": "assets/images/portfolio/design1.svg",
+      "link": "#",
+      "category": "design"
+    },
+    {
+      "id": 8,
+      "title": "Brand Identity Design",
+      "description": "Complete brand identity package including logo, color palette, typography, and usage guidelines.",
+      "image": "assets/images/portfolio/design2.svg",
+      "link": "#",
+      "category": "design"
+    },
+    {
+      "id": 9,
+      "title": "Interactive City Map",
+      "description": "Interactive map highlighting points of interest, transportation routes, and historical landmarks.",
+      "image": "assets/images/portfolio/map1.svg",
+      "link": "#",
+      "category": "map"
+    },
+    {
+      "id": 10,
+      "title": "Geographic Data Visualization",
+      "description": "Custom map visualizations showing demographic data and regional statistics for research purposes.",
+      "image": "assets/images/portfolio/map2.svg",
+      "link": "#",
+      "category": "map"
+    },
+    {
+      "id": 11,
+      "title": "Photography Portfolio",
+      "description": "Collection of landscape and urban photography showcasing composition and lighting techniques.",
+      "image": "assets/images/portfolio/others1.svg",
+      "link": "#",
+      "category": "others"
+    },
+    {
+      "id": 12,
+      "title": "3D Modeling Project",
+      "description": "3D character and environment models created for an indie game project using Blender.",
+      "image": "assets/images/portfolio/others2.svg",
+      "link": "#",
+      "category": "others"
+    }
+  ]
+}

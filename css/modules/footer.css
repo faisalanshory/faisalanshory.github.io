@@ -1,0 +1,13 @@
+/* Footer CSS File */
+
+footer {
+    background-color: var(--dark-surface);
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 80px;
+}
+
+footer p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}

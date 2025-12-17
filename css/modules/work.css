@@ -1,0 +1,126 @@
+/* Work CSS File */
+
+.work-filter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.filter-btn {
+    padding: 8px 20px;
+    background-color: var(--surface-color);
+    border: none;
+    border-radius: 30px;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all var(--transition-speed) ease;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.work-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(312.5px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* Pagination styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.pagination-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--surface-color);
+    color: var(--text-primary);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.pagination-btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+    transform: translateY(-3px);
+}
+
+.pagination-btn.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.work-item {
+    background-color: var(--surface-color);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+    transform: scale(1.25);
+}
+
+.work-item:hover {
+    transform: translateY(-10px) scale(1.25);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.work-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.work-img img {
+    transition: transform 0.5s ease;
+}
+
+.work-item:hover .work-img img {
+    transform: scale(1.1);
+}
+
+.work-info {
+    padding: 20px;
+}
+
+.work-info h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.work-info p {
+    color: var(--text-secondary);
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+}
+
+.read-more {
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 0.9rem;
+    display: inline-block;
+    position: relative;
+}
+
+.read-more::after {
+    content: '→';
+    margin-left: 5px;
+    transition: transform var(--transition-speed) ease;
+}
+
+.read-more:hover::after {
+    transform: translateX(5px);
+}

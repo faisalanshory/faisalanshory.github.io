@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#2d2d2d" />
+  
+  <!-- Header Image Area -->
+  <rect x="50" y="50" width="500" height="150" rx="5" fill="#424242" />
+  
+  <!-- AI Graphic Elements -->
+  <circle cx="200" cy="125" r="50" fill="#1e1e1e" stroke="#4dabf7" stroke-width="2" />
+  <circle cx="400" cy="125" r="50" fill="#1e1e1e" stroke="#ff6584" stroke-width="2" />
+  
+  <!-- Connection Line -->
+  <line x1="250" y1="125" x2="350" y2="125" stroke="#b3b3b3" stroke-width="3" stroke-dasharray="5 3" />
+  
+  <!-- Brain-like Pattern in Left Circle -->
+  <path d="M180,100 Q200,80 220,100 Q240,120 200,140 Q160,120 180,100" fill="none" stroke="#4dabf7" stroke-width="2" />
+  
+  <!-- Design Pattern in Right Circle -->
+  <rect x="380" y="105" width="40" height="40" rx="5" fill="none" stroke="#ff6584" stroke-width="2" />
+  <circle cx="400" cy="125" r="15" fill="none" stroke="#ff6584" stroke-width="2" />
+  
+  <!-- Article Title -->
+  <rect x="50" y="220" width="300" height="20" rx="3" fill="#4dabf7" />
+  
+  <!-- Article Text -->
+  <rect x="50" y="250" width="500" height="10" rx="2" fill="#b3b3b3" />
+  <rect x="50" y="270" width="500" height="10" rx="2" fill="#b3b3b3" />
+  <rect x="50" y="290" width="500" height="10" rx="2" fill="#b3b3b3" />
+  <rect x="50" y="310" width="300" height="10" rx="2" fill="#b3b3b3" />
+  
+  <!-- Read More Button -->
+  <rect x="50" y="340" width="120" height="30" rx="15" fill="#4dabf7" />
+  <rect x="70" y="350" width="80" height="10" rx="2" fill="white" />
+</svg>
